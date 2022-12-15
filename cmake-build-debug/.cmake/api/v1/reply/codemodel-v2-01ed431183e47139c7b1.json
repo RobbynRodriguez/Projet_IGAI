@@ -1,0 +1,289 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "deps/polyscope",
+					"childIndexes" : 
+					[
+						2,
+						9
+					],
+					"jsonFile" : "directory-deps.polyscope-Debug-e0fb7a7d96a497698d97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope"
+				},
+				{
+					"build" : "deps/polyscope/deps",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7,
+						8
+					],
+					"jsonFile" : "directory-deps.polyscope.deps-Debug-85cf5cdee18775c74fba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope/deps"
+				},
+				{
+					"build" : "deps/polyscope/deps/glad",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-deps.polyscope.deps.glad-Debug-c8fe23270fb5c2925ca6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope/deps/glad"
+				},
+				{
+					"build" : "deps/polyscope/deps/glad/src",
+					"jsonFile" : "directory-deps.polyscope.deps.glad.src-Debug-896d4a167df9b7882403.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope/deps/glad/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "deps/polyscope/deps/glfw",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-deps.polyscope.deps.glfw-Debug-96749ddc7f1c3ffe39b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "deps/polyscope/deps/glfw"
+				},
+				{
+					"build" : "deps/polyscope/deps/glfw/src",
+					"jsonFile" : "directory-deps.polyscope.deps.glfw.src-Debug-8eaf267210b92aa4dfc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "deps/polyscope/deps/glfw/src",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"build" : "deps/polyscope/deps/imgui",
+					"jsonFile" : "directory-deps.polyscope.deps.imgui-Debug-03b92c40b672d0d94301.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope/deps/imgui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "deps/polyscope/deps/stb",
+					"jsonFile" : "directory-deps.polyscope.deps.stb-Debug-4d54ff9a99cd0d83d720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope/deps/stb",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "deps/polyscope/src",
+					"jsonFile" : "directory-deps.polyscope.src-Debug-ec2feae79bd8a7d7e56a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/polyscope/src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "openMeshPolyScope",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9
+					],
+					"name" : "polyscope",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "glad::@98233e3db7e177071371",
+					"jsonFile" : "target-glad-Debug-9e4647852fb1f2230fdb.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glfw::@10d7cd74cb252634c37e",
+					"jsonFile" : "target-glfw-Debug-53b7232a2633654f3493.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "imgui::@79a1569c4ce229380b97",
+					"jsonFile" : "target-imgui-Debug-0053a151513406e9a757.json",
+					"name" : "imgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openMeshPolyScope::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openMeshPolyScope-Debug-98f484f723e1def13c02.json",
+					"name" : "openMeshPolyScope",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "polyscope::@d17fc2d76cb0cf7d3ca6",
+					"jsonFile" : "target-polyscope-Debug-c65fefb6cb608048b872.json",
+					"name" : "polyscope",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "stb::@a816bd2f7ea2b896107d",
+					"jsonFile" : "target-stb-Debug-53355629ea1dd66bd6a0.json",
+					"name" : "stb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "update_mappings::@10d7cd74cb252634c37e",
+					"jsonFile" : "target-update_mappings-Debug-7b2df3bbe03cdc0cf381.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robbyn/Bureau/Projet_IGAI/cmake-build-debug",
+		"source" : "/home/robbyn/Bureau/Projet_IGAI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
